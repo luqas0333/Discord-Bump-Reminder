@@ -18,4 +18,4 @@ async def bump(ctx):
     embed = discord.Embed(title="Bump", description="Vergesse nicht den Server zu bumpen!", color=0x333333)
     await ctx.send(embed=embed)
 
-bot.run('#')
+bot.run('TOKEN')
