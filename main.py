@@ -15,7 +15,7 @@ async def bump(ctx):
      #Using asyncio.sleep to wait for 2 hours
     await asyncio.sleep(2*60*60)
 
-    embed = discord.Embed(title="Bump", description="Vergesse nicht den Server zu bumpen!", color=0x333333)
+    embed = discord.Embed(title="Bump", description="This is a bump message", color=0x333333)
     await ctx.send(embed=embed)
 
 bot.run('TOKEN')
